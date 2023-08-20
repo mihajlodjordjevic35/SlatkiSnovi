@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Poručite naše proizvode online ili preuzmite robu lično, za sve dodatne informacije pozovite 011/7130-592">
+    <meta name="keywords" content="Slatki snovi, Slatki snovi poruci, Slatki snovi porucivanje, Slatki snovi dostava">
+    <meta name="author" content="Mihajlo Đorđević, mihajlodjordjevic35@gmail.com">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/novistil.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <title>Slatki snovi - Poruči</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ebe8e1;">
+      <div class="container-fluid">
+        <button aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed" data-bs-target="#navbarTogglerDemo03" data-bs-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="image-fluid"></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="onama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Proizvodi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ebe8e1;">
+                <li><a class="dropdown-item" href="svadbenetorte.html">Svadbene torte</a></li>
+                <li><a class="dropdown-item" href="klasicnetorte.html">Klasične torte</a></li>
+                <li><a class="dropdown-item" href="kolaci.html">Kolači</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="fontana.html">Čokoladna fontana</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mapa.html">Mapa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #ebe8e1;">
+                <li><a class="dropdown-item" href="svetcokolade.html">Zanimljiv svet čokolade</a></li>
+                <li><a class="dropdown-item" href="savrsenatorta.html">Savršena svadbena torta</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-3 social-size">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <h2 class="display-3">Poruči</h2>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+              <form action="obavestenje1.html" method="post">
+                <h4 class="mb-4" style="color: rgb(58, 58, 58);">Osnovni podaci</h4>
+                <div class="mb-3">
+                    <label for="name" class="form-label"><i class="fas fa-user"></i> Ime i prezime</label>
+                    <input type="text" class="form-control input-pozadina" id="name" aria-describedby="nameHelp" placeholder="Unesite Vaše ime i prezime" required>
+                </div>
+                <div class="mb-3">
+                    <label for="address" class="form-label"><i class="fas fa-home"></i> Kućna adresa i broj</label>
+                    <input type="text" class="form-control input-pozadina" id="address" aria-describedby="addressHelp" placeholder="Unesite Vašu kućnu adresu i broj" required>
+                </div>
+                <div class="mb-3">
+                    <label for="city" class="form-label"><i class="fas fa-city"></i> Grad</label>
+                    <input type="text" class="form-control input-pozadina" id="city" aria-describedby="cityHelp" placeholder="Unesite Vaš grad" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mail" class="form-label"><i class="fas fa-mail-bulk"></i> Poštanski broj</label>
+                    <input type="text" class="form-control input-pozadina" id="mail" aria-describedby="mailHelp" placeholder="Unesite Vaš poštanski broj" required>
+                </div>
+                <h4 class="mb-4" style="color: rgb(58, 58, 58);">Detalji za dostavu</h4>
+                <div class="mb-3">
+                    <label for="location" class="form-label"><i class="fas fa-map-marker-alt"></i> Lokacija dostave</label>
+                    <select class="form-select input-pozadina" id="location" aria-label="Default select example">
+                        <option selected value="1">Novi Beograd</option>
+                        <option value="2">Zemun</option>
+                        <option value="3">Vračar</option>
+                        <option value="4">Dorćol</option>
+                        <option value="5">Banovo brdo</option>
+                        <option value="6">Cerak</option>
+                        <option value="7">Karaburma</option>
+                        <option value="8">Voždovac</option>
+                        <option value="9">Rakovica</option>
+                        <option value="10">Mirijevo</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="dostava" class="form-label"><i class="fas fa-truck"></i> Način dostave</label>
+                    <select class="form-select input-pozadina" id="dostava" aria-label="Default select example">
+                        <option selected value="1">Preuzimanje u lokalu</option>
+                        <option value="2">Dostava na adresu</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="placanje" class="form-label"><i class="fas fa-credit-card"></i> Način plaćanja</label>
+                    <select class="form-select input-pozadina" id="placanje" aria-label="Default select example">
+                        <option selected value="1">Plaćanje gotovinom prilikom dostave</option>
+                        <option value="2">Plaćanje karticom prilikom dostave</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="kolicina" class="form-label"><i class="fas fa-list-ol"></i> Količina</label>
+                    <select class="form-select input-pozadina" id="kolicina" aria-label="Default select example">
+                        <option selected value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6">
+                <h4 class="mb-4" style="color: rgb(58, 58, 58);">Kontakt podaci</h4>
+                <div class="mb-3">
+                    <label for="e-mail" class="form-label"><i class="fas fa-envelope"></i> Email adresa</label>
+                    <input type="email" class="form-control input-pozadina" id="e-mail" aria-describedby="emailHelp" placeholder="Unesite Vašu e-mail adresu" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label"><i class="fas fa-phone"></i> Telefon</label>
+                    <input type="tel" class="form-control input-pozadina" id="phone" pattern="[0-9]{9,}" aria-describedby="phoneHelp" placeholder="Unesite Vaš broj telefona" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputMessage1" class="form-label"><i class="fas fa-edit"></i> Napomena</label>
+                    <textarea class="form-control input-pozadina" id="exampleInputMessage1" rows="8" placeholder="Unesite tekst Vaše napomene"></textarea>
+                  </div>
+                  <hr>
+                  <div class="mb-4">
+                      <p class="podaci">Vaši lični podaci će se koristiti za obradu vaše narudžbine, podršku vašem iskustvu na ovoj veb lokaciji i u druge svrhe.</p>
+                  </div>
+                  <div class="d-grid gap-2">
+                      <button id="contact-submit-btn" type="submit" class="btn btn-outline-secondary input-pozadina" style="height: 80px;font-size: 30px;font-weight: bold;"><i class="fas fa-paper-plane"></i> Poruči</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: #ebe8e1;">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <p> <span><i class="far fa-copyright" aria-hidden="true"></i> 2021 SLATKI SNOVI, ANTIFAŠISTIČKE BORBE 57, NOVI BEOGRAD,</span> <a href="mailto:slatkisnovi@gmail.com">slatkisnovi@gmail.com</a>, <a href="tel:011/7130-592">011/7130-592</a></p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="cenovnik.pdf">Cenovnik</a></li>
+            <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+            <li class="list-inline-item"><a href="onama.html">O nama</a></li>
+            <li class="list-inline-item"><a href="mapa.html">Mapa</a></li>
+            <li class="list-inline-item"><a href="faq.html">FAQ</a></li>
+          </ul>
+          <p><span>Radno vreme:<br>
+            Radnim danima: 8:00 - 20:00<br>
+            Vikendom: 11:00 - 20:00</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox.min.js "></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
